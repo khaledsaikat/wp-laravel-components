@@ -1,17 +1,23 @@
 {
-    "name": "khaledsaikat/wp-composer",
-    "description": "WordPress plugin example using composer. Optionally load models and controllers",
-    "keywords": ["wordpress", "composer"],
+    "name": "khaledsaikat/wp-laravel-components",
+    "description": "WordPress plugin example using laravel components",
+    "keywords": ["wordpress", "laravel"],
     "license": "GNU",
     "authors": [
         {
             "name": "Khaled Hossain"
         }
     ],
+    "require": {
+        "philo/laravel-blade": "^3.0"
+    },
     "autoload": {
         "psr-4": {
-            "WPComposerExample\\": "models/",
-            "WPComposerExample\\Controllers\\": "controllers/"
-        }
+            "WPLaravel\\": "models/",
+            "WPLaravel\\Controllers\\": "controllers/"
+        },
+        "files": [
+            "helpers.php"
+        ]
     }
 }

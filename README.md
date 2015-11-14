@@ -1,14 +1,8 @@
-# WP Composer
-WordPress plugin example using composer
+# WordPress Laravel Components
+WordPress plugin example using laravel components
 
 
-Classes inside models and controllers directory will autoload by composer.
-To make instance of controller class we can run Base::load_controllers();
-
-
-Run follwing command to install composer component if you .gitignore vendor directory
+Run follwing command to install composer components
 ```
 composer install
 ```
-
-To test the plugin, you can write shortcode [wp-composer] to any page or post.

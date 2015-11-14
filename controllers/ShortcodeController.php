@@ -1,6 +1,7 @@
-<?php namespace WPComposerExample\Controllers;
+<?php namespace WPLaravel\Controllers;
 
-use WPComposerExample\Base;
+use WPLaravel\Base;
+use WPLaravel\Helpers;
 
 /**
  * Example of ShortcodeController class to add new shortcode.
@@ -15,7 +16,7 @@ class ShortcodeController
 
     function wp_composer()
     {
-        return 'Shortcode is working.';
+        return Helpers\maps('Dummy');
     }
 
 }
