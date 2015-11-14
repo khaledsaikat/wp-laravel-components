@@ -10,3 +10,5 @@ Run follwing command to install composer component if you .gitignore vendor dire
 ```
 composer install
 ```
+
+To test the plugin, you can write shortcode [wp-composer] to any page or post.
