@@ -1,5 +1,4 @@
-<?php
-namespace WPComposerExample;
+<?php namespace WPComposerExample;
 
 /**
  * Base class

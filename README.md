@@ -1,9 +1,12 @@
-# wp-composer
+# WP Composer
 WordPress plugin example using composer
+
 
 Classes inside models and controllers directory will autoload by composer.
 To make instance of controller class we can run Base::load_controllers();
 
 
-Run command: composer install
-to install composer component
+Run follwing command to install composer component if you .gitignore vendor directory
+```
+composer install
+```

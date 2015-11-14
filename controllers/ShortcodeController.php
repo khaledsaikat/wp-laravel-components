@@ -1,5 +1,4 @@
-<?php
-namespace WPComposerExample\Controllers;
+<?php namespace WPComposerExample\Controllers;
 
 use WPComposerExample\Base;
 

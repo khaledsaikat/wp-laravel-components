@@ -1,4 +1,13 @@
 {
+    "name": "khaledsaikat/wp-composer",
+    "description": "WordPress plugin example using composer. Optionally load models and controllers",
+    "keywords": ["wordpress", "composer"],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Khaled Hossain"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "WPComposerExample\\": "models/",
