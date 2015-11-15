@@ -11,12 +11,16 @@ class ShortcodeController
 
     function __construct()
     {
-        add_shortcode('wp-composer', [$this, 'wp_composer']);
+        add_shortcode('wp-laravel', [$this, 'wp_composer']);
     }
 
     function wp_composer()
     {
-        return Helpers\maps('Dummy');
+        $string = '';
+        $string .= Helpers\maps('Dummy');
+        $string .= Base::view('test');
+
+        return $string;
     }
 
 }
